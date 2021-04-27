@@ -443,11 +443,6 @@
 }
 
 @media(max-width: 375.8px) {
-    .news__content-blocks .salon-sect,
-    .news-section .news__content-blocks .salon-sect__picbox-img {
-        height: 300px;
-    }
-
     .news__content-blocks .show-morebtn a text {
         padding: 0 11%;
     }
