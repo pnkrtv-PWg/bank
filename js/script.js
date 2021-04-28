@@ -64,35 +64,6 @@ $(document).ready(function () {
         var leftmarg = (($(window).width() - $('.container').width()) / 2);
         $('.news-slider').css('padding-left', leftmarg);
     }
-
-    $(window).resize(function () {
-        var leftmarg = (($(window).width() - $('.container').width()) / 2) - 35;
-        $('.news-slider').css('padding-left', leftmarg);
-        if ($(window).width() < 1025) {
-            var leftmarg = (($(window).width() - $('.container').width()) / 2);
-            $('.news-slider').css('padding-left', leftmarg);
-        }
-        // news slider arrow
-        $('.news .slick-next.slick-arrow').css('right', rightmarg - 10);
-        $('.news .slick-prev.slick-arrow').css('right', rightmarg + 25);
-        if ($(window).width() < 1300) {
-            $('.news .slick-next.slick-arrow').css('right', rightmarg - 0);
-            $('.news .slick-prev.slick-arrow').css('right', rightmarg + 30);
-        }
-        if ($(window).width() < 576) {
-            var leftmarg = (($(window).width() - $('.container').width()) / 2);
-            $('.news-slider').css('padding-left', leftmarg);
-        }
-
-        if ($(window).width() < 576) {
-            var leftmarg = (($(window).width() - $('.container').width()) / 2);
-            $('.news-slider').css('padding-left', leftmarg);
-        }
-        if ($(window).height() < 501) {
-            var leftmarg = (($(window).width() - $('.container').width()) / 2);
-            $('.news-slider').css('padding-left', leftmarg);
-        }
-    });
 });
 
 $(document).ready(function () {
